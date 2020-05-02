@@ -1,0 +1,42 @@
+#clock {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffff;
+    border-radius: 50px;
+    background: #81c79c;
+    box-shadow:  20px 20px 60px #6ea985, 
+             -20px -20px 60px #94e5b3;
+}
+
+body {
+    font-size: 24px;
+    text-align: center;
+    color: #ffff;
+    border-radius: 50px;
+    background: #81c79c;
+    box-shadow:  20px 20px 60px #6ea985, 
+             -20px -20px 60px #94e5b3;
+}
+
+#row {
+    text-align: center;
+    width: 80%;
+    border-radius: 50px;
+    background: #81c79c;
+    box-shadow:  20px 20px 60px #6ea985, 
+             -20px -20px 60px #94e5b3;
+}
+
+#save-btn {
+    text-align: center;
+    border-radius: 50px;
+    background: #81c79c;
+    box-shadow:  20px 20px 60px #6ea985, 
+             -20px -20px 60px #94e5b3;
+   
+}
+
+
+
