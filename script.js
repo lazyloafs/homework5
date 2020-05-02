@@ -3,7 +3,7 @@ var clock = document.getElementById('clock');
 function updateTime () {
 
 var now = moment ();
-var humanReadable = now.format("dddd MMM Mo YYYY")
+var humanReadable = now.format("dddd MMM DD YYYY")
 
 clock.textContent = humanReadable;
 }
