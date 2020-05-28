@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 var clock = document.getElementById('clock');
 
 function updateTime () {
@@ -16,4 +18,5 @@ $(".save-btn").on('click', function () {
     var inputEl = saveButtonEl.siblings(".hour-input");
     var storageKey = saveButtonEl.attr('data-key');
     localStorage.setItem(storageKey, inputEl.val());
+});
 });
